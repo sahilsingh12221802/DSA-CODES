@@ -13,7 +13,6 @@ void display(struct Array arr){
         cout<<arr.A[i]<<" ";
     }
 }
-
 //Iterative approach
 
 int BinarySearch(struct Array arr, int key){
@@ -72,5 +71,4 @@ int main(){
     cin>>element;
 
     cout<< "Element found at index: "<<RbinSearch(arr,0,arr.length-1,element);
-
 }
